@@ -1,0 +1,77 @@
+.authHead {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #1B212D;
+}
+.authTitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #78778B;
+    margin-top: 8px;
+}
+.formLabel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1B212D;
+    margin-bottom: 10px;
+}
+.form{
+    width: 404px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px 25px 16px 20px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+}
+input::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #78778B;
+    margin-bottom: 10px;
+}
+.buttonCreate{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 14px 20px;
+  background-color: #d4f046;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1B212D;
+  margin-bottom: 10px;
+}
+.buttonGoogle{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 14px 20px;
+  background-color: #F5F5F5;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #78778B;
+  margin-bottom: 10px;
+
+}
