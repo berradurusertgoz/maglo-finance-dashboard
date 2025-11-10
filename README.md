@@ -1,21 +1,41 @@
-<<<<<<< HEAD
-# React + Vite
+# Maglo Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A financial dashboard project built with **React**, **Vite**, **TailwindCSS**, **Context API**, and real API integration.  
+The project includes authentication, financial summaries, charts, wallet cards, scheduled transfers, and transactions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Authentication (Sign In / Sign Up)
+- Form validation (email, password, full name)
+- Error & success messages with React Toastify
+- Loading state with animated loader
+- Redirect if already logged in
+- Disabled inputs during loading
 
-## React Compiler
+###  Dashboard
+- Pixel-perfect UI based on Figma
+- Responsive layout (desktop & mobile)
+- Sidebar navigation
+- Header with user info
+- Stats cards (total balance, spending, savings)
+- Working Capital chart using **Recharts**  
+- Recent Transactions table  
+- Scheduled Transfers list  
+- Wallet with layered card design (glassmorphism + gradients)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###  API Integration
+- Authentication (login/register)
+- Summary data
+- Wallet data
+- Transactions
+- Scheduled transfers
+- Working capital (income/expense trends)
+- All with loading, error handling and
 
-## Expanding the ESLint configuration
+Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# maglo-finance-dashboard
-Financial dashboard project built with React, TailwindCSS, Context API and API integration.
->>>>>>> 98d064bf6ef9cd6b3787ac7b8a77a977bbcfd273
+```bash
+git clone https://github.com/berradurusertgoz/maglo-finance-dashboard.git
+cd maglo-finance-dashboard
+npm install
+npm run dev
