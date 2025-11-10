@@ -3,7 +3,7 @@
 A financial dashboard project built with **React**, **Vite**, **TailwindCSS**, **Context API**, and real API integration.  
 The project includes authentication, financial summaries, charts, wallet cards, scheduled transfers, and transactions.
 
-## 🚀 Features
+## Features
 
 ### Authentication (Sign In / Sign Up)
 - Form validation (email, password, full name)
@@ -39,3 +39,7 @@ git clone https://github.com/berradurusertgoz/maglo-finance-dashboard.git
 cd maglo-finance-dashboard
 npm install
 npm run dev
+
+-----
+## 🚀 Live Demo
+https://maglo-finance-dashboard.netlify.app
